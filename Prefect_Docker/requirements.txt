@@ -1,0 +1,4 @@
+pandas
+tensorflow
+prefect-sqlalchemy 
+prefect-email

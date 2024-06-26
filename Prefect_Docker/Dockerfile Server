@@ -1,0 +1,7 @@
+FROM prefecthq/prefect:2.19.1-python3.10
+COPY requirements.txt /requirements.txt
+RUN pip install --user --upgrade pip
+RUN pip install prefect-sqlalchemy 
+RUN pip install prefect-email
+RUN prefect block register -m prefect_email 
+RUN prefect block register -m prefect_sqlalchemy

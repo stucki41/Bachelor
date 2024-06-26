@@ -1,4 +1,13 @@
 
+# Bachelorarbeit Vergleich der Orchestration Frameworks Apache Airflow und Prefect
+
+Das Verzeichnis beinhaltet vier Ansätze für die Entwicklung von Apache Airflow und Prefect. Zwei Ordner dienen der lokalen Implementierung der beiden Software-Lösungen, während zwei weitere Ordner die Ausführung in einem Docker-Container ermöglichen.
+
+## Author
+
+- Daniel Stuckenberger
+
+
 ## Prefect lokal
 
 Die Initiierung Prefect erfordert die Ausführung der nachfolgenden Befehle.
